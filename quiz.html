@@ -1,0 +1,73 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>ThinkScope | Quiz</title>
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600;700&display=swap" rel="stylesheet">
+    <link rel="stylesheet"
+    href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.1/css/all.min.css">
+    <link rel="stylesheet" href="css/quiz.css">
+</head>
+<body>
+    <!-- Navigation -->
+    <header>
+        <div class="navbar">
+            <a href="index.html" class="logo">
+                <i class="fa-solid fa-brain"></i>
+                ThinkScope
+            </a>
+            <div class="quiz-info">
+                <span id="questionNumber">
+                    Question 1 / 10
+                </span>
+                <span id="timer">
+                    ⏳ 05:00
+                </span>
+            </div>
+        </div>
+    </header>
+
+    <!-- Progress Bar -->
+    <section class="progress-section">
+        <div class="progress-bar">
+            <div class="progress" id="progress"></div>
+        </div>
+    </section>
+
+    <!-- Quiz Container -->
+    <main class="quiz-container">
+        <div class="quiz-card">
+            <h1 id="quizTitle">
+                Are You an Overthinker?
+            </h1>
+            <h2 id="question">
+                Loading Question...
+            </h2>
+            <div class="options">
+                <button class="option-btn"></button>
+                <button class="option-btn"></button>
+                <button class="option-btn"></button>
+                <button class="option-btn"></button>
+            </div>
+            <div class="buttons">
+                <button id="prevBtn">Previous</button>
+                <button id="nextBtn">Next</button>
+            </div>
+        </div>
+    </main>
+
+    <!-- Fun Fact -->
+    <section class="fact-box">
+        <h3>💡 Did You Know?</h3>
+        <p>People who frequently overthink often spend more time analyzing possibilities than taking action.</p>
+    </section>
+
+    <!-- Footer -->
+    <footer>
+        <p>© 2026 ThinkScope</p>
+    </footer>
+
+    <script src="js/quiz.js"></script>
+</body>
+</html>
